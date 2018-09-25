@@ -146,6 +146,8 @@ nav h1 a {
   padding: 0 30px 25px;
   text-align: left;
   width: 270px;
+  display: inline-block;
+  
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -273,3 +275,27 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+@media screen and (max-width: 800px) {
+  body { 
+    padding: 50px; 
+  }
+  #restaurants-list li {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 600px) { 
+  body { 
+    padding: 40px; 
+  }
+
+  #restaurants-list li {
+    min-height: 100px !important;
+  }
+  .restaurant-img {
+    border: 10px solid red;
+    display: none !important;
+  }
+}
+
