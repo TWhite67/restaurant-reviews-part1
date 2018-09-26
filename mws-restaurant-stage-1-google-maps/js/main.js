@@ -3,7 +3,7 @@ let restaurants,
   cuisines
 var map
 var markers = []
-image.alt = restaurant.name
+image.alt = restaurant.name;
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
