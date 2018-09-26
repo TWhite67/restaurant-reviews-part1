@@ -1,5 +1,6 @@
 let restaurant;
 var map;
+image.alt= restaurant.name;
 
 /**
  * Initialize Google map, called from HTML.
